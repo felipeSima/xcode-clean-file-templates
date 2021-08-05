@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Feature:</string>
+			<key>Description</key>
+			<string>The name of the Feature</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>featureName</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___</string>
+			<key>Identifier</key>
+			<string>featureName</string>
+			<key>Description</key>
+			<string>The name of the Feature</string>
+			<key>Name</key>
+			<string>Feature name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>I___VARIABLE_productName:identifier___UseCase</string>
+			<key>Identifier</key>
+			<string>useCaseInterface</string>
+			<key>Description</key>
+			<string>The name of useCase interface</string>
+			<key>Name</key>
+			<string>UseCase Interface name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___UseCaseImpl</string>
+			<key>Identifier</key>
+			<string>useCaseImpl</string>
+			<key>Description</key>
+			<string>The name of useCase implementation</string>
+			<key>Name</key>
+			<string>UseCase Implementation name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>I___VARIABLE_productName:identifier___Repository</string>
+			<key>Identifier</key>
+			<string>repositoryInterface</string>
+			<key>Description</key>
+			<string>The name of repository interface</string>
+			<key>Name</key>
+			<string>Repository Interface name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___RepositoryImpl</string>
+			<key>Identifier</key>
+			<string>repositoryImpl</string>
+			<key>Description</key>
+			<string>The name of repository implementation</string>
+			<key>Name</key>
+			<string>Repository Implementation name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>I___VARIABLE_productName:identifier___RemoteDataSource</string>
+			<key>Identifier</key>
+			<string>remoteDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Interface name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___RemoteDataSourceImpl</string>
+			<key>Identifier</key>
+			<string>remoteDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Implementation name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>I___VARIABLE_productName:identifier___LocalDataSource</string>
+			<key>Identifier</key>
+			<string>localDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of local datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Interface name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___LocalDataSourceImpl</string>
+			<key>Identifier</key>
+			<string>localDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of local datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Implementation name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>I___VARIABLE_productName:identifier___InMemoryDataSource</string>
+			<key>Identifier</key>
+			<string>inMemoryDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of inMemory datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Interface name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___InMemoryDataSourceImpl</string>
+			<key>Identifier</key>
+			<string>inMemoryDatasourceInterface</string>
+			<key>Description</key>
+			<string>The name of inMemory datasource interface</string>
+			<key>Name</key>
+			<string>DataSource Implementation name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Api</string>
+			<key>Identifier</key>
+			<string>apiName</string>
+			<key>Description</key>
+			<string>The name of the Api</string>
+			<key>Name</key>
+			<string>Api name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_productName:identifier___Assembler</string>
+			<key>Identifier</key>
+			<string>assemblerName</string>
+			<key>Description</key>
+			<string>The name of the Dependency Injection Assembler</string>
+			<key>Name</key>
+			<string>DI Assembler name:</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>

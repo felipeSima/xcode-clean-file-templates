@@ -1,0 +1,5 @@
+import UIKit
+
+struct ___VARIABLE_productName___InMemoryDataSourceImpl: I___VARIABLE_productName___InMemoryDataSource {
+
+}
